@@ -1,0 +1,323 @@
+﻿body {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    width: 100%;
+    margin: 0px;
+}
+
+img{
+    object-fit: cover;
+}
+
+a.buttons {
+    padding: 10px 5px;
+    border: 5px inset greenyellow;
+    border-radius: 100px;
+    color: white;
+}
+
+a {
+   text-decoration:none;
+}
+
+p{
+    font-size: 1em;
+    color:black;
+}
+
+
+
+a.buttons:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+header {
+    
+    background-image: url("./images/giphy.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    position: relative;    
+    height: 800px;
+   width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+
+}
+
+header nav {
+    background-color: black;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: center;
+    font-size: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:1;
+
+}
+
+
+
+h1 a.buttons {
+    padding: 5px 7px;
+    font-size: .7em;
+}
+
+header h1  {
+        font-weight: normal;
+        text-align: center;
+        font-style:normal;    
+}
+
+header h1 em {
+        font-style: normal;
+        font-size: 3em;
+}
+
+#cover{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 800px;
+
+}
+
+#links a {
+    margin: 10px; 
+    color:white;
+    font-size: 1.5rem;
+}
+
+#profile{
+    width: 200;
+    height: 200;
+    margin-top: 800;
+    align-items:center;
+    position:absolute;
+}
+
+#profile img{
+    border-radius: 360px;
+    border: 10px solid greenyellow;
+    align-items:center;
+
+}
+
+#nome{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 200px;
+    width: 100%;
+}
+
+
+
+
+#first_block{
+    
+    justify-content:space-between;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 350px;
+    background-color: aquamarine;
+    color:black;
+}
+
+.block_img{
+    margin-left: 50px;
+    margin-right:50px;
+    display: flex;
+
+    height: 400px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+.number{
+    font-size: 5em;
+    color: greenyellow;
+}
+
+.title_name{
+    font-size: 1.5em;
+    text-align: center;
+    color:black;
+}
+
+#second_block{
+    justify-content:space-between;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 350px;
+    background-color:lightblue;
+    color:black;
+}
+
+#third_block{
+    justify-content:space-between;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 350px;
+    background-color:blueviolet;
+    color:black;
+}
+
+#fourth_block{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 350px;
+    background-color:tomato;
+    color:black;
+    justify-content:center;
+
+}
+
+.fourth_img{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    border-radius: 50px;
+
+}
+
+
+.footer_icon{
+    height: 50px;
+    width: 50px;
+    justify-content:center;
+
+
+}
+
+
+#menu {
+    display: none;
+}
+
+#menu div 
+{
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 5px 0;
+}
+
+
+
+
+
+footer {
+    background-color: rgba(0,0,0,0.83);
+    color: rgba(255, 255, 255, .8);
+    text-align:center;
+    text-transform:capitalize;
+    padding:20px;
+    
+    
+}
+    footer img:hover{
+        border:2px solid dimgrey;
+        border-radius:100px;
+    }
+
+    footer em {
+        font-style: normal;
+        color: dimgrey;
+    }
+
+
+
+
+@media (max-width: 500px) {
+
+    header{
+        height:50%;
+        width: auto;
+    }
+
+    header nav{
+        width: 500px;
+    }
+
+    header h1  {
+        font-size: 12px;
+    }
+
+    h1 a.buttons {
+        font-size: 20px;
+    }
+
+    cover{
+
+        height:50%;
+        width: auto;
+    
+    }
+    #main{
+        width:500px;
+    
+        flex-direction: column;
+
+
+    }
+
+    #first_block, #second_block, #third_block, #fourth_block{
+
+    height: 50%;
+    width:500px;;
+    flex-direction: column;
+
+    }
+    
+    .block_img, .fourth_img{
+
+    height: 70%;
+    width: 70%;
+
+    }
+
+
+
+    p{
+        font-size: 150%;
+    }
+    em{
+        font-size: 150%;
+
+    }
+
+    #links{
+        display: none;
+    }
+
+    #menu{
+        display: block;
+    }
+
+}
